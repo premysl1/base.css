@@ -1,0 +1,210 @@
+/* position */
+
+.position_relative
+{
+    position: relative;
+}
+
+.position_absolute
+{
+    position: absolute;
+}
+
+.position_fixed
+{
+    position: fixed;
+}
+
+.position_sticky
+{
+    position: sticky;
+}
+
+.left
+{
+    left: 0;
+}
+
+.right
+{
+    right: 0;
+}
+
+.top
+{
+    top: 0;
+}
+
+.bottom
+{
+    bottom: 0;
+}
+
+.inset
+{
+    inset: 0
+}
+
+/* display */
+
+/* <display-outside> */
+
+.block
+{
+    display: block;
+}
+
+.inline
+{
+    display: inline;
+}
+
+.run_in
+{
+    display: run-in;
+}
+
+/* <display-inside> */
+
+.flow
+{
+    display: flow;
+}
+
+.flow_root
+{
+    display: flow-root;
+}
+
+.table
+{
+    display: table;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.flex_center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid
+{
+    display: grid;
+}
+
+.grid_center
+{
+    display: grid;
+    place-items: center;
+}
+
+.ruby
+{
+    display: ruby;
+}
+
+/* <display-listitem> */
+
+.list_item
+{
+    display: list-item;
+}
+
+/* <display-internal> */
+
+.table_row_group
+{
+    display: table-row-group;
+}
+
+.table_header_group
+{
+    display: table-header-group;
+}
+
+.table_footer_group
+{
+    display: table-footer-group;
+}
+
+.table_row
+{
+    display: table-row;
+}
+
+.table_cell
+{
+    display: table-cell;
+}
+
+.table_column_group
+{
+    display: table-column-group;
+}
+
+.table_column
+{
+    display: table-column;
+}
+
+.table_caption
+{
+    display: table-caption;
+}
+
+.ruby_base
+{
+    display: ruby-base;
+}
+
+.ruby_text
+{
+    display: ruby-text;
+}
+
+.ruby_base_container
+{
+    display: ruby-base-container;
+}
+
+.ruby_text_container
+{
+    display: ruby-text-container;
+}
+
+/* <display-box> */
+
+.contents
+{
+    display: contents;
+}
+
+.none
+{
+    display: none;
+}
+
+/* <top-level> */
+
+.grid_lanes
+{
+    display: grid-lanes;
+}
+
+.inline_grid_lanes
+{
+    display: inline-grid-lanes;
+}
+
+/* <math> */
+
+.math
+{
+    display: math;
+}
