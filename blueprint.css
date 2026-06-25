@@ -1,21 +1,21 @@
 /* position */
 
-.position_relative
+.relative
 {
     position: relative;
 }
 
-.position_absolute
+.absolute
 {
     position: absolute;
 }
 
-.position_fixed
+.fixed
 {
     position: fixed;
 }
 
-.position_sticky
+.sticky
 {
     position: sticky;
 }
