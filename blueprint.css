@@ -1,3 +1,97 @@
+/* width */
+
+.w_100
+{
+    width: 100%;
+}
+
+.w_80
+{
+    width: 80%;
+}
+
+.w_66
+{
+    width: 66%;
+}
+
+.w_60
+{
+    width: 80%;
+}
+
+.w_50
+{
+    width: 50%;
+}
+
+.w_40
+{
+    width: 40%;
+}
+
+.w_33
+{
+    width: 33%;
+}
+
+.w_25
+{
+    width: 25%;
+}
+
+.w_20
+{
+    width: 20%;
+}
+
+/* height */
+
+.h_100
+{
+    height: 100%;
+}
+
+.h_80
+{
+    height: 80%;
+}
+
+.h_66
+{
+    height: 66%;
+}
+
+.h_60
+{
+    height: 80%;
+}
+
+.h_50
+{
+    height: 50%;
+}
+
+.h_40
+{
+    height: 40%;
+}
+
+.h_33
+{
+    height: 33%;
+}
+
+.h_25
+{
+    height: 25%;
+}
+
+.h_20
+{
+    height: 20%;
+}
+
 /* position */
 
 .relative
