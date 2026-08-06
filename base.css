@@ -44,6 +44,11 @@ input, button, textarea, select, ul, li
     font: inherit;
 }
 
+li
+{
+    list-style: none;
+}
+
 input[type="range"]
 {
     cursor: grab;
