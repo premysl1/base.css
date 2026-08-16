@@ -5,6 +5,11 @@
     width: 100%;
 }
 
+.w_90
+{
+    width: 80%;
+}
+
 .w_80
 {
     width: 80%;
@@ -15,14 +20,19 @@
     width: 75%;
 }
 
+.w_70
+{
+    width: 70%;
+}
+
 .w_66
 {
-    width: 66%;
+    width: 66.6%;
 }
 
 .w_60
 {
-    width: 80%;
+    width: 60%;
 }
 
 .w_50
@@ -37,7 +47,12 @@
 
 .w_33
 {
-    width: 33%;
+    width: 33.3%;
+}
+
+.w_30
+{
+    width: 30%;
 }
 
 .w_25
@@ -45,9 +60,14 @@
     width: 25%;
 }
 
-.w_20
+.h_20
 {
     width: 20%;
+}
+
+.h_10
+{
+    width: 10%;
 }
 
 /* height */
@@ -55,6 +75,11 @@
 .h_100
 {
     height: 100%;
+}
+
+.h_90
+{
+    height: 80%;
 }
 
 .h_80
@@ -67,14 +92,19 @@
     height: 75%;
 }
 
+.h_70
+{
+    height: 70%;
+}
+
 .h_66
 {
-    height: 66%;
+    height: 66.6%;
 }
 
 .h_60
 {
-    height: 80%;
+    height: 60%;
 }
 
 .h_50
@@ -89,7 +119,12 @@
 
 .h_33
 {
-    height: 33%;
+    height: 33.3%;
+}
+
+.h_30
+{
+    height: 30%;
 }
 
 .h_25
@@ -102,12 +137,23 @@
     height: 20%;
 }
 
+.h_10
+{
+    height: 10%;
+}
+
 /* width and height */
 
 .wh_100
 {
     width: 100%;
     height: 100%;
+}
+
+.wh_90
+{
+    width: 80%;
+    height: 80%;
 }
 
 .wh_80
@@ -122,16 +168,22 @@
     height: 75%;
 }
 
+.wh_70
+{
+    width: 70%;
+    height: 70%;
+}
+
 .wh_66
 {
-    width: 66%;
-    height: 66%;
+    width: 66.6%;
+    height: 66.6%;
 }
 
 .wh_60
 {
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
 }
 
 .wh_50
@@ -148,8 +200,14 @@
 
 .wh_33
 {
-    width: 33%;
-    height: 33%;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+.wh_30
+{
+    width: 30%;
+    height: 30%;
 }
 
 .wh_25
@@ -164,49 +222,64 @@
     height: 20%;
 }
 
+.wh_10
+{
+    width: 10%;
+    height: 10%;
+}
+
 /* position */
 
-.relative
+.relative,
+.rltv
 {
     position: relative;
 }
 
-.absolute
+.absolute,
+.bslt
 {
     position: absolute;
 }
 
-.fixed
+.fixed,
+.fxd
 {
     position: fixed;
 }
 
-.sticky
+.sticky,
+.stck
 {
     position: sticky;
 }
 
-.left
+.left,
+.lft
 {
     left: 0;
 }
 
-.right
+.right,
+.rght
 {
     right: 0;
 }
 
-.top
+.top,
+.tp
 {
     top: 0;
 }
 
-.bottom
+.bottom,
+.bttm
 {
     bottom: 0;
 }
 
-.inset
+.inset,
+.nst
 {
     inset: 0
 }
@@ -215,162 +288,215 @@
 
 /* <display-outside> */
 
-.block
+.block,
+.blck
 {
     display: block;
 }
 
-.inline
+.inline,
+.nln
 {
     display: inline;
 }
 
-.run_in
+.run_in,
+.rn_n
 {
     display: run-in;
 }
 
 /* <display-inside> */
 
-.flow
+.flow,
+.flw
 {
     display: flow;
 }
 
-.flow_root
+.flow_root,
+.flw_rt
 {
     display: flow-root;
 }
 
-.table
+.table,
+.tbl
 {
     display: table;
 }
 
-.flex
+.flex,
+.flx
 {
     display: flex;
 }
 
-.flex_center
+.flex_center,
+.flx_cntr
 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.grid
+.center_main,
+.cntr_mn
+{
+    justify-content: center;
+}
+
+.align_items_center,
+.lgn_tms_cntr
+{
+    align-items: center;
+}
+
+.grid,
+.grd
 {
     display: grid;
 }
 
-.grid_center
+.center_horizontally,
+.cntr_hrzntll
+{
+    justify-items: center;
+}
+
+.grid_center,
+.grd_cntr
 {
     display: grid;
     place-items: center;
 }
 
-.ruby
+.ruby,
+.rb
 {
     display: ruby;
 }
 
 /* <display-listitem> */
 
-.list_item
+.list_item,
+.lst_tm
 {
     display: list-item;
 }
 
 /* <display-internal> */
 
-.table_row_group
+.table_row_group,
+.tbl_rw_grp
 {
     display: table-row-group;
 }
 
-.table_header_group
+.table_header_group,
+.tbl_hdr_grp
 {
     display: table-header-group;
 }
 
-.table_footer_group
+.table_footer_group,
+.tbl_ftr_grp
 {
     display: table-footer-group;
 }
 
-.table_row
+.table_row,
+.tbl_rw
 {
     display: table-row;
 }
 
-.table_cell
+.table_cell,
+.tbl_cll
 {
     display: table-cell;
 }
 
-.table_column_group
+.table_column_group,
+.tbl_clmn_grp
 {
     display: table-column-group;
 }
 
-.table_column
+.table_column,
+.tbl_clmn
 {
     display: table-column;
 }
 
-.table_caption
+.table_caption,
+.tbl_cptn
 {
     display: table-caption;
 }
 
-.ruby_base
+.ruby_base,
+.rb_bs
 {
     display: ruby-base;
 }
 
-.ruby_text
+.ruby_text,
+.rb_txt
 {
     display: ruby-text;
 }
 
-.ruby_base_container
+.ruby_base_container,
+.rb_bs_cntnr
 {
     display: ruby-base-container;
 }
 
-.ruby_text_container
+.ruby_text_container,
+.rb_txt_cntnr
 {
     display: ruby-text-container;
 }
 
 /* <display-box> */
 
-.contents
+.contents,
+.cntnts
 {
     display: contents;
 }
 
-.none
+.none,
+.nn
 {
     display: none;
 }
 
 /* <top-level> */
 
-.grid_lanes
+.grid_lanes,
+.grd_lns
 {
     display: grid-lanes;
 }
 
-.inline_grid_lanes
+.inline_grid_lanes,
+.nln_grd_lns
 {
     display: inline-grid-lanes;
 }
 
 /* <math> */
 
-.math
+.math,
+.mth
 {
     display: math;
+}
+
+.show-border,
+.shw-brdr
+{
+    border: 1px dashed red;
 }
