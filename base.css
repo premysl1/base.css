@@ -13,6 +13,15 @@ p {
     text-wrap: pretty;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
 audio, img, picture, svg, video, canvas, iframe, embed, object {
     display: block;
     max-width: 100%;

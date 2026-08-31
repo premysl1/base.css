@@ -217,7 +217,6 @@
 }
 
 .w_revert_layer,
-.w_rvrt_lyr,
 .w_rvrt_lr {
     width: revert-layer;
 }
@@ -446,7 +445,6 @@
 }
 
 .h_revert_layer,
-.h_rvrt_lyr,
 .h_rvrt_lr {
     height: revert-layer;
 }
@@ -726,7 +724,6 @@
 }
 
 .wh_revert_layer,
-.wh_rvrt_lyr,
 .wh_rvrt_lr {
     width: revert-layer;
     height: revert-layer;
@@ -803,7 +800,6 @@
 }
 
 .position_revert_layer,
-.pstn_rvrt_lyr,
 .pstn_rvrt_lr {
     position: revert-layer;
 }
@@ -859,44 +855,75 @@
     display: ruby;
 }
 
-/* <display-outisde> || <display-inside> 
-Full display excluded if short display already exists */
+/* <display-outside> || <display-inside>
+Full display value excluded
+if short display value for that value already exists */
 
 .block_ruby,
 .blck_rb {
     display: block ruby;
 }
 
-.inline_flow_root,
-.nln_flw_rt {
-    display: inline flow-root;
+.block_math,
+.blck_mth {
+    display: block math;
+}
+
+.inline_math,
+.nln_mth {
+    display: inline math;
+}
+
+/* <display-legacy>
+Short aliases for inline-* values */
+
+.inline_block,
+.nln_blck {
+    display: inline-block;
 }
 
 .inline_table,
 .nln_tbl {
-    display: inline table;
+    display: inline-table;
 }
 
 .inline_flex,
 .nln_flx {
-    display: inline flex;
+    display: inline-flex;
 }
 
 .inline_grid,
 .nln_grd {
-    display: inline grid;
+    display: inline-grid;
 }
 
-/* multi-keyword with list-item (<display-outside> <display-inside> list-item) */
+/* <display-listitem>
+Full display value excluded
+if short display value for that value already exists */
 
-.block_flow_list_item,
-.blck_flw_lst_tm {
-    display: block flow list-item;
+.list_item,
+.lst_tm {
+    display: list-item;
 }
 
-.inline_flow_list_item,
-.nln_flw_lst_tm {
-    display: inline flow list-item;
+.block_list_item,
+.blck_lst_tm {
+    display: block list-item;
+}
+
+.inline_list_item,
+.nln_lst_tm {
+    display: inline list-item;
+}
+
+.flow_list_item,
+.flw_lst_tm {
+    display: flow list-item;
+}
+
+.flow_root_list_item,
+.flw_rt_lst_tm {
+    display: flow-root list-item;
 }
 
 .block_flow_root_list_item,
@@ -904,11 +931,9 @@ Full display excluded if short display already exists */
     display: block flow-root list-item;
 }
 
-/* <display-listitem> */
-
-.list_item,
-.lst_tm {
-    display: list-item;
+.inline_flow_root_list_item,
+.nln_flw_rt_lst_tm {
+    display: inline flow-root list-item;
 }
 
 /* <display-internal> */
@@ -1007,38 +1032,28 @@ Full display excluded if short display already exists */
 /* Global values */
 
 .display_inherit,
-.dsply_nhrt,
 .dspl_nhrt {
     display: inherit;
 }
 
 .display_initial,
-.dsply_ntl,
 .dspl_ntl {
     display: initial;
 }
 
 .display_revert,
-.dsply_rvrt,
 .dspl_rvrt {
     display: revert;
 }
 
 .display_revert_layer,
-.dsply_rvrt_lyr,
 .dspl_rvrt_lr {
     display: revert-layer;
 }
 
 .display_unset,
-.dsply_nst,
 .dspl_nst {
     display: unset;
-}
-
-.show_border,
-.shw_brdr {
-    border: 1px dashed red !important;
 }
 
 /* flex centering */
@@ -1110,7 +1125,6 @@ Full display excluded if short display already exists */
 }
 
 .flex_direction_revert_layer,
-.flx_drctn_rvrt_lyr,
 .flx_drctn_rvrt_lr {
     flex-direction: revert-layer;
 }
@@ -1136,7 +1150,7 @@ Full display excluded if short display already exists */
 /* margin */
 
 .margin_auto,
-.mrgn_at {
+.mrgn_t {
     margin: auto;
 }
 
@@ -1199,4 +1213,11 @@ Full display excluded if short display already exists */
 .margin_unset,
 .mrgn_nst {
     margin: unset;
+}
+
+/* Helpers */
+
+.show_border,
+.shw_brdr {
+    border: 1px dashed red !important;
 }
