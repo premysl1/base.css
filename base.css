@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     border: 0;
+    hyphens: auto;
 }
 
 *:not(dialog) {
@@ -10,7 +11,6 @@
 
 p {
     text-wrap: pretty;
-    hyphens: manual;
 }
 
 h1,
@@ -22,22 +22,31 @@ h6 {
     text-wrap: balance;
 }
 
+audio, img, picture, svg, video, canvas, iframe, embed, object {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button {
+    cursor: pointer;
+    text-box: trim-both cap alphabetic;
+}
+
 button, summary {
     user-select: none;
 }
 
-audio, img, picture, svg, video, canvas, iframe, embed, object {
-    display: block;
-    max-width: 100%;
+button, fieldset {
+    border: none;
 }
 
-button,
-label,
-select,
-input[type="checkbox"],
-input[type="radio"],
-input[type="range"] {
-    cursor: pointer;
+input, button, textarea, select, ul, li {
+    font: inherit;
+}
+
+li {
+    list-style: none;
 }
 
 input[type="range"] {
@@ -48,11 +57,12 @@ input[type="range"]:active {
     cursor: grabbing;
 }
 
-
-input, button, textarea, select {
-    font: inherit;
+details[open] > :last-child {
+    text-box: trim-both cap alphabetic;
 }
 
-li {
-    list-style: none;
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        scroll-behavior: smooth;
+    }
 }
